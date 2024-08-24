@@ -1,0 +1,101 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background: #333;
+    color: hsl(200, 100%, 90%);
+    max-width: 600px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.new-item-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 60%;
+}
+
+.form-input {
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.form-input:focus {
+    outline: 0;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn-add {
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+    background-color: #1d2f28;
+    border: 3px solid #03794e;
+    color: #03794e;
+    box-shadow: 0px 9px #292929;
+    border-radius: 5px;
+}
+.btn-add:hover {
+    background-color: #065035;
+}
+.btn-add:active {
+    background-color: #139968;
+    box-shadow: 0px 5px #292929;
+    transform: translateY(4px);
+}
+
+
+.btn-delete {
+    border-color: #ff0000;
+    color: #ff0000;
+    border-radius: 3px;
+    background: #360000;
+    background-blend-mode: color;
+    box-shadow: 0px 5px #292929;
+    height: 25px;
+    margin-left: 10px;
+}
+.btn-delete:hover {
+    background-color: #590202;
+}
+.btn-delete:active{
+    background-color: #831f1f;
+    box-shadow: 0px 2px #292929;
+    transform: translateY(3px);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    font-size: 20px;
+    margin: 5px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
